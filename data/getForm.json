@@ -1,0 +1,187 @@
+{
+    "data": {
+        "name": "test",
+
+                {    "content": "
+    \"title\": \"test\",
+    \"icon\": \"message\",
+    \"description\": \"测试\",
+    \"items\": [
+        {
+            \"componentName\": \"TextField\",
+            \"props\": {
+                \"placeholder\": \"请输入\",
+                \"label\": \"单行输入框\",
+                \"id\": \"TextField-J0DHZ34M\"
+            }
+        },
+        {
+            \"componentName\": \"TextareaField\",
+            \"props\": {
+                \"placeholder\": \"请输入\",
+                \"label\": \"多行输入框\",
+                \"id\": \"TextareaField-J0DHZ34N\"
+            }
+        },
+        {
+            \"componentName\": \"NumberField\",
+            \"props\": {
+                \"placeholder\": \"请输入\",
+                \"label\": \"数字输入框\",
+                \"id\": \"NumberField-J0DHZ34O\"
+            }
+        },
+        {
+            \"componentName\": \"DDSelectField\",
+            \"props\": {
+                \"placeholder\": \"请选择\",
+                \"options\": [
+                    \"选项1\",
+                    \"选项2\",
+                    \"选项3\"
+                ],
+                \"label\": \"单选框\",
+                \"id\": \"DDSelectField-J0DHZ34P\"
+            }
+        },
+        {
+            \"componentName\": \"DDMultiSelectField\",
+            \"props\": {
+                \"placeholder\": \"请选择\",
+                \"options\": [
+                    \"选项1\",
+                    \"选项2\",
+                    \"选项3\",
+                    \"选项5\",
+                    \"选项4\"
+                ],
+                \"label\": \"多选框\",
+                \"id\": \"DDMultiSelectField-J0DHZ34K\"
+            }
+        },
+        {
+            \"componentName\": \"DDDateField\",
+            \"props\": {
+                \"placeholder\": \"请选择\",
+                \"format\": \"yyyy-MM-dd\",
+                \"label\": \"日期\",
+                \"unit\": \"天\",
+                \"id\": \"DDDateField-J0DHZ34Q\"
+            }
+        },
+        {
+            \"componentName\": \"DDDateRangeField\",
+            \"props\": {
+                \"placeholder\": \"请选择\",
+                \"format\": \"yyyy-MM-dd\",
+                \"unit\": \"天\",
+                \"label\": [
+                    \"开始时间\",
+                    \"结束时间\"
+                ],
+                \"pushToCalendar\": \"0\",
+                \"id\": \"DDDateRangeField-J0DHZ34L\"
+            }
+        },
+        {
+            \"componentName\": \"DDPhotoField\",
+            \"props\": {
+                \"label\": \"图片\",
+                \"id\": \"DDPhotoField-J0DHZ34R\"
+            }
+        },
+        {
+            \"componentName\": \"TableField\",
+            \"props\": {
+                \"actionName\": \"增加明细\",
+                \"statField\": [
+                    
+                ],
+                \"label\": \"明细\",
+                \"id\": \"TableField-J0DHZ34S\"
+            },
+            \"children\": [
+                {
+                    \"componentName\": \"TextField\",
+                    \"props\": {
+                        \"placeholder\": \"请输入\",
+                        \"label\": \"单行输入框\",
+                        \"id\": \"TextField-J0DHZ34U\"
+                    }
+                },
+                {
+                    \"componentName\": \"TextField\",
+                    \"props\": {
+                        \"placeholder\": \"请输入\",
+                        \"label\": \"单行输入框(2)\",
+                        \"id\": \"TextField-J0DHZ34V\"
+                    }
+                }
+            ]
+        },
+        {
+            \"componentName\": \"TextNote\",
+            \"props\": {
+                \"content\": \"请输入说明文字\",
+                \"notPrint\": \"1\",
+                \"id\": \"TextNote-J0DHZ34T\"
+            }
+        },
+        {
+            \"componentName\": \"MoneyField\",
+            \"props\": {
+                \"placeholder\": \"请输入\",
+                \"label\": \"金额（元）\",
+                \"id\": \"MoneyField-J0DHZ34W\"
+            }
+        },
+        {
+            \"componentName\": \"DDAttachment\",
+            \"props\": {
+                \"label\": \"附件\",
+                \"id\": \"DDAttachment-J0DHZ34X\"
+            }
+        },
+        {
+            \"componentName\": \"ExternalContactField\",
+            \"props\": {
+                \"placeholder\": \"请选择\",
+                \"label\": \"外部联系人\",
+                \"id\": \"ExternalContactField-J0DHZ34Y\"
+            }
+        }
+    ]
+}
+        ",
+        "currentMonthCount": 0,
+        "pushVo": {
+            "attendanceRule": "",
+            "pushTag": "",
+            "pushSwitch": ""
+        },
+        "memo": "测试",
+        "gmtCreated": 1489735552000,
+        "isDeleted": "n",
+        "formEngine": "nfb",
+        "visibleRange": "PRIVATE",
+        "procType": "",
+        "iconUrl": "",
+        "uuid": "FORM-EF6YLU2SO2-YR7JU1ZXTO3PNM5TMC6V1-F903ID0J-3",
+        "gmtModified": 1489742327000,
+        "ruleType": "",
+        "creator": "",
+        "condition": [],
+        "procAttendanceType": 0,
+        "procView": "inner",
+        "masterDataUserVo": null,
+        "isAttendanceCorp": "1",
+        "welcome": null,
+        "previewForm": false
+    },
+    "throwable": "",
+    "errorCode": "",
+    "success": true,
+    "errorMessage": "",
+    "metadata": {},
+    "httpStatus": "200"
+}

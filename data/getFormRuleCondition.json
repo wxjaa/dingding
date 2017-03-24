@@ -1,0 +1,12 @@
+{
+  "data": {
+    "ruleType": "",
+    "condition": []
+  },
+  "errorCode": "",
+  "throwable": "",
+  "success": true,
+  "errorMessage": "",
+  "httpStatus": "200",
+  "metadata": {}
+}

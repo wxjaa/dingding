@@ -1,0 +1,7 @@
+{
+  "uuid": "FORM-empty",
+  "content": "{\"title\":\"test11\",\"icon\":\"common\",\"description\":\"11\",\"items\":[{\"componentName\":\"DDSelectField\",\"props\":{\"placeholder\":\"请选择\",\"options\":[\"选项1\",\"选项2\",\"选项3\"],\"label\":\"单选框\",\"id\":\"DDSelectField-J0N8Q328\"}},{\"componentName\":\"DDPhotoField\",\"props\":{\"label\":\"图片\",\"id\":\"DDPhotoField-J0N8Q329\"}},{\"componentName\":\"DDAttachment\",\"props\":{\"label\":\"附件\",\"id\":\"DDAttachment-J0N8Q32A\"}}]}",
+  "name": "test11",
+  "iconUrl": "common",
+  "memo": "11"
+}

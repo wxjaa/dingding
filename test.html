@@ -1,0 +1,201 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <style>
+        [ng-cloak] {
+            display: none;
+        }
+    </style>
+    <script>
+        var isSSL = (window.location.protocol === 'https:');
+        var ua = window.navigator.userAgent;
+        var isApp = /nw/.test(ua);
+        if(isApp){
+            var version = '2.14.2';  // 老版本桌面端先强制使用 2.14.2
+            var groupName = 'dingding';
+        }else{
+            var version = '3.3.4';
+            var groupName = 'DingTalkWeb';
+        }
+        var forceMatch = /forceversion=([\d\.]+)/.exec(window.location.href);
+        if(forceMatch && forceMatch[1]){
+            version = forceMatch[1];
+        }
+        if(isSSL){
+            var staticHost = 'g.alicdn.com';
+        }else{
+            var staticHost = 'g.alicdn.daily.taobao.net'
+        }
+        if(window.location.href.indexOf('env=beta')>0){
+            var staticHost = 'g-assets.daily.taobao.net';
+        }
+        var bodyClass = '';
+        if(!isApp && window.location.search.indexOf('mode=fullscreen') > 0) {
+            bodyClass += ' is-app';
+        }
+        if(isApp){
+            bodyClass+= ' is-app';
+            if(ua.indexOf('Mac OS X')!== -1){
+                bodyClass += ' mac-os';
+            }else{
+                bodyClass += ' windows-os';
+            }
+        }
+        window.dingtalkWindowName = "main";
+    </script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <title>钉钉</title>
+    <meta name="description" content="钉钉网页版，提供windows版和Mac版，支持winxp、win7、win8、vista和iOS操作系统，手机端、Pad、PC端等信息多端同步，工作沟通更高效。">
+    <meta name="keywords" content="钉钉网页版，钉钉WEB版，dingding web，dingding pc，钉钉PC版，钉钉电脑">
+    <script>
+        document.write('<lin'+'k rel="stylesheet" href="css/app.css">')
+    </script>
+
+    <link rel="icon" id="favicon" href="//g.alicdn.com/dingding/web/0.2.6/img/oldIcon.ico" type="image/x-icon" />
+
+</head>
+<script>
+    document.write('<bo'+'dy class="bo'+'dy'+bodyClass+'" prevent-drag dd-copy dd-click-url>')
+</script>
+
+<div id="cdn-error-bar" class="kie-bar cdn-error">
+    啊哦，钉钉暂时无法访问，请下载最新的钉钉继续使用。 <a target="_blank" href="http://www.dingtalk.com/mac/d/?spm=a3140.7786765.0.0.5TCYgb">Mac 版</a>&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.dingtalk.com/win/d/?spm=a3140.7786765.0.0.5TCYgb">Windows 版</a>
+</div>
+
+<div id="kie-bar" class="kie-bar">
+    <div class="kie-logo"><img src="//g.alicdn.com/dingding/web/0.1.9/img/logo.png" alt=""></div>
+    钉钉不支持你当前使用的浏览器，可能会导致部分图片和信息的缺失。请下载使用最新版<a href="http://pc.uc.cn/" class="kie-setup-taoBrowser" target="_blank" title="UC浏览器">UC浏览器</a>或<a href="http://www.google.com/intl/zh-CN/chrome/" class="kie-setup-taoBrowser" target="_blank" title="谷歌浏览器">谷歌浏览器</a>或下载<a id="app-download" target="_blank" href="https://www.dingtalk.com/?gotoDownload=true">钉钉桌面版（推荐）</a>
+</div>
+
+<div id="invalidAppTips" class="kie-bar">
+    <div class="kie-logo"><img src="//g.alicdn.com/dingding/web/0.1.8/img/logo.png" alt=""></div>
+    您当前的钉钉版本过低，请升级最新的<a target="_blank" href="https://www.dingtalk.com/?gotoDownload=true">钉钉桌面版</a>
+</div>
+
+<style>
+    .kie-bar {
+        font-weight:normal;
+        text-align: center;
+        background-color:#FFF;
+        color:#e27839;
+        font-size: 14px;
+        text-shadow: 0px 0px 1px #efefef;
+        position: absolute;
+        width:100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding-top:200px;
+        z-index:9999;
+        display:none;
+    }
+    .kie-bar.cdn-error {
+        display:block;
+    }
+    .kie-logo img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+    .kie-bar a {
+        color:#08c;
+        text-decoration: none;
+    }
+</style>
+<div id="layout-container" ng-cloak ui-view></div>
+<!--插件-->
+<script type="text/javascript">
+    var hasScreenshotPlugin = false;
+    try{
+        var mimetype = navigator.mimeTypes["application/x-dingscreenshot-plugin"];
+        if(mimetype){
+            hasScreenshotPlugin = true;
+        }else{
+            hasScreenshotPlugin = false;
+        }
+    }catch(e){
+        hasScreenshotPlugin = false;
+    }
+
+    if(hasScreenshotPlugin){
+        document.write('<embed id="screenshotPlugin" wmode="opaque" width="1" height="1" type="application/x-dingscreenshot-plugin"></embed>');
+    }
+
+</script>
+<script>
+    document.write('<scrip'+'t src="js/index-global.js"></s'+'cript>')
+</script>
+
+<script>
+
+    var ua = navigator.userAgent.toLowerCase();
+
+    var _isAtomShell = window.navigator.userAgent.indexOf('AtomShell') !== -1;
+    var _isNodeWebkit = window.navigator.userAgent.indexOf('nw') !== -1;
+
+    window.upgradeApp = function(isForce){
+        if(isForce){
+            $('#invalidAppTips').css("display","block");
+        };
+    }
+
+    if(_isNodeWebkit){
+        var gui = require('nw.gui');
+        gui.App.clearCache();
+        window._nwrequire = require;
+    }
+
+    function checkUpdate(){
+        var upd = require('updater'),
+                gui = require('nw.gui'),
+                win = gui.Window.get(),
+                app = gui.App;
+
+        //console.log(app);
+        var pkg = {
+            "version": app.manifest.version,
+            "manifestUrl": app.manifest.manifestUrl
+        }
+
+        var tools = upd.tools;
+        var appMinVersion = '0.4.0';
+        var checkCurrentVersionWithMinVersion = tools.versionCmp(app.manifest.version,appMinVersion);
+
+        var jumpToForceUpdateOnFrontWin = function(){
+
+            global.currentWin.window.location.href= tools.getCurrentExecDir()+"\\update\\forceUpdate.html"
+        }
+
+        if(checkCurrentVersionWithMinVersion === "smaller"){
+            jumpToForceUpdateOnFrontWin();
+        }
+
+    }
+
+
+
+    //atom-shell走的逻辑
+    function _appSetting(){
+        if(_isAtomShell){
+            window._require = require;
+            $("body").delegate("a", "click", function(event) {
+                var href = $(this).attr("href");
+                var shell = _require("shell");
+                shell.openExternal(href);
+            });
+            upgradeApp(true);
+        }
+
+    }
+
+    if(!(/(webkit|Firefox)/i.test(ua))){
+        $('#kie-bar').css("display","block");
+    }else{
+        document.write('<scrip'+'t src="js/app.js"></s'+'cript>')
+    }
+
+</script>
+</body>
+</html>
