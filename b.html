@@ -1,0 +1,580 @@
+<!--<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<script src="__STATIC__/css/jquery.js?dt={$dtFlag}"></script>
+<script src="__STATIC__/css/eosgi.js?dt={$dtFlag}"></script>
+</head> 
+<body>
+aaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbb
+<script>
+var data = {
+		'userName': '18908086680',
+		'password': 'yuxin200king',
+		'platformId':'3',
+		'systemTypeId': '2'
+	};
+$.eosgi.service.execute('yizs.shop.qryShopList', data, function(json) {
+	alert(JSON.stringify(json));
+})
+</script>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/sm.css"/>
+    <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <style>
+        .content {
+            background: #ddd;
+        }
+
+        .list-block {
+            margin: 0
+        }
+
+        .list-block > ul {
+            background: transparent;
+        }
+
+        .list-block > ul ul {
+            padding-left: 0;
+        }
+
+        .item-content {
+            background: #fff;
+            margin-top: .6rem;
+        }
+
+        .bg-blue {
+            background: #26bbff;
+            color: #fff;
+        }
+
+        .btn-bottom {
+            padding: .4rem;
+            margin: 1rem;
+            height: auto;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+<div class="page-group">
+    <!-- 单个page ,第一个.page默认被展示-->
+    <div class="page">
+        <!-- 标题栏 -->
+        <header class="bar bar-nav">
+            <a class="icon icon-me pull-left open-panel"></a>
+            <h1 class="title" id='title'>{$list.title}</h1>
+        </header>
+
+        <!-- 工具栏 -->
+        <nav class="bar bar-tab">
+            <a href="#" class="button bg-blue btn-bottom">提&nbsp;交</a>
+        </nav>
+        <div class="content">
+            <!--  <input type="file" id="file">
+              <div style="width:200px;height:200px" id="aaa"></div>-->
+            <div class="list-block" id="content">
+                <ul>
+                    <foreach name="list.components" item="vo">
+                        <switch name="vo.componentName">
+                            <case value='tablefield'>
+                                <li>
+                                    <div>{$vo.defaultLable}</div>
+                                    <ul>
+                                        <foreach name="vo.components" item="item">
+                                            <switch name="item.componentName">
+                                                <case value="numberfield">
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">{$item.defaultLable}</div>
+                                                                <div class="item-input">
+                                                                    <input type="number"
+                                                                           placeholder="{$item.defaultProps}">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </case>
+                                                <case value="textfield">
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">{$item.defaultLable}</div>
+                                                                <div class="item-input">
+                                                                    <input type="text"
+                                                                           placeholder="{$item.defaultProps}">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </case>
+                                                <case value="textareafield">
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">{$item.defaultLable}</div>
+                                                                <div class="item-input">
+                                                                    <textarea
+                                                                            placeholder="{$item.defultProps}"></textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </case>
+                                                <case value="ddselectfield">
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">{$item.defaultLable}</div>
+                                                                <div class="item-input">
+                                                                    <select>
+                                                                        <foreach name="item.defaultOptions"
+                                                                                 item="option">
+                                                                            <option value="{$option.text}">
+                                                                                {$option.text}
+                                                                            </option>
+                                                                        </foreach>
+                                                                    </select>
+                                                                </div>
+                                                                <i class="icon icon-right"></i>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </case>
+                                                <case value="dddatefield">
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">{$item.defaultLable}</div>
+                                                                <div class="item-input">
+                                                                    <input type="date"
+                                                                           placeholder="{$item.defultProps}"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </case>
+                                                <case value="dddaterangefield">
+                                                    <li>
+                                                        <div class="item-content"
+                                                             style="margin-top: 0;border-bottom: 1px solid #ccc">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">{$item.defaultLable}</div>
+                                                                <div class="item-input">
+                                                                    <if condition="item.defaultFormat=='yyyy-MM-dd'">
+                                                                        <input type="date"
+                                                                               placeholder="{$item.defultProps}"/>
+
+                                                                        <else/>
+                                                                        <input type="datetime"
+                                                                               placeholder="{$item.defultProps}"/>
+                                                                    </if>
+                                                                </div>
+                                                                <i class="icon icon-right"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-content" style="margin-top: 0">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">{$item.defaultLable2}
+                                                                </div>
+                                                                <div class="item-input">
+                                                                    <if condition="item.defaultFormat=='yyyy-MM-dd'">
+                                                                        <input type="date"
+                                                                               placeholder="{$item.defultProps2}"/>
+                                                                        <else/>
+                                                                        <input type="datetime"
+                                                                               placeholder="{$item.defultProps2}"/>
+                                                                    </if>
+
+                                                                </div>
+                                                                <i class="icon icon-right"></i>
+                                                            </div>
+                                                        </div>
+                                                        <if condition="vo.defaultAutorekonTime=='true'">
+                                                            <div class="item-inner">
+                                                                <if condition="item.defaultFormat=='yyyy-MM-dd'">
+                                                                    <div class="item-title label">
+                                                                        {$item.defaultSubtitle}（天）
+                                                                    </div>
+                                                                    <else/>
+                                                                    <input type="datetime"
+                                                                           placeholder="{$item.defultProps}"/>
+
+                                                                    <div class="item-title label">
+                                                                        {$item.defaultSubtitle}（小时）
+                                                                    </div>
+                                                                    <div class="item-input">
+                                                                        <input type="number" readonly/>
+                                                                    </div>
+                                                                </if>
+                                                            </div>
+                                                        </if>
+                                                    </li>
+                                                </case>
+                                                <case value="ddphotofield">
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner text-right">
+                                                                <i class="icon icon-app"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-content item-inner">
+
+                                                        </div>
+                                                    </li>
+                                                </case>
+                                                <case value="textnote">
+                                                    <li>
+                                                        <div class="item-media"></div>
+                                                        <div class="item-inner">
+                                                            <div class="item-title label">{$item.defaultLable}</div>
+                                                            <div class="item-input">
+                                                                <input type="text" placeholder="{$item.defultProps}"/>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </case>
+                                                <case value="moneyfield">
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">{$item.defaultLable}</div>
+
+                                                            </div>
+                                                            <div class="item-input">
+                                                                <input type="number" placeholder="{$item.defultProps}"/>
+                                                            </div>
+                                                        </div>
+                                                        <if condition="vo.defaultTranslate">
+                                                            <div class="item-content">
+                                                                <div class="item-media"></div>
+                                                                <div class="item-inner">
+                                                                    <div class="item-title label">大写:</div>
+                                                                    <div class="item-input">
+                                                                        <div></div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </if>
+                                                    </li>
+                                                </case>
+                                                <case value="ddattachment">
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">{$item.defaultLable}</div>
+
+                                                            </div>
+                                                            <div class="item-input">
+                                                                <input type="number" placeholder="{$item.defultProps}"/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-content">
+                                                            <div class="item-inner"></div>
+                                                        </div>
+                                                    </li>
+                                                </case>
+                                                <case value="externalcontactfield">
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-media"></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">{$item.defaultLable}</div>
+                                                            </div>
+                                                            <div class="item-input">
+                                                                <div>{$item.defultProps}</div>
+                                                                <i class="icon icon-next"></i>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </case>
+                                            </switch>
+                                        </foreach>
+                                        <li>
+                                            <div class="text-center action">
+                                                <i class="icon icon-picture"></i>
+                                                {$vo.defaultAction}
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </case>
+                            <case value="numberfield">
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable}</div>
+                                            <div class="item-input">
+                                                <input type="number" placeholder="{$vo.defaultProps}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </case>
+                            <case value="textfield">
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable}</div>
+                                            <div class="item-input">
+                                                <input type="text" placeholder="{$vo.defaultProps}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </case>
+                            <case value="textareafield">
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable}</div>
+                                            <div class="item-input">
+                                                <textarea placeholder="{$vo.defultProps}"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </case>
+                            <case value="ddselectfield">
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable}</div>
+                                            <div class="item-input">
+                                                <select>
+                                                    <foreach name="vo.defaultOptions" item="option">
+                                                        <option value="{$option.text}">{$option.text}</option>
+                                                    </foreach>
+                                                </select>
+                                            </div>
+                                            <i class="icon icon-right"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                            </case>
+                            <case value="dddatefield">
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable}</div>
+                                            <div class="item-input">
+                                                <input type="date" placeholder="{$vo.defultProps}"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </case>
+                            <case value="dddaterangefield">
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable}</div>
+                                            <div class="item-input">
+                                                <if condition="vo.defaultFormat=='yyyy-MM-dd'">
+                                                    <input type="date" placeholder="{$vo.defultProps}"/>
+                                                    <else/>
+                                                    <input type="datetime" placeholder="{$vo.defultProps}"/>
+                                                </if>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable2}</div>
+                                            <div class="item-input">
+                                                <if condition="vo.defaultFormat=='yyyy-MM-dd'">
+                                                    <input type="date" placeholder="{$vo.defultProps2}"/>
+                                                    {else /}<input type="datetime" placeholder="{$vo.defultProps2}"/>
+                                                </if>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <if condition="vo.defaultAutorekonTime">
+                                        <div class="item-inner">
+                                            <if condition="vo.defaultFormat=='yyyy-MM-dd'">
+                                                <div class="item-title label">{$vo.defaultSubtitle}（天）</div>
+                                                {else /}
+                                                <input type="datetime" placeholder="{$vo.defultProps}"/>
+
+                                                <div class="item-title label">{$vo.defaultSubtitle}（小时）</div>
+                                                <div class="item-input">
+                                                    <input type="number" readonly/>
+                                                </div>
+                                            </if>
+                                        </div>
+                                    </if>
+                                </li>
+                            </case>
+                            <case value="ddphotofield">
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner text-right">
+                                            <i class="icon icon-app"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-content item-inner">
+
+                                    </div>
+                                </li>
+                            </case>
+                            <case value="textnote">
+                                <li>
+                                    <div class="item-media"></div>
+                                    <div class="item-inner">
+                                        <div class="item-title label">{$vo.defaultLable}</div>
+                                        <div class="item-input">
+                                            <input type="text" placeholder="{$vo.defultProps}"/>
+                                        </div>
+                                    </div>
+                                </li>
+                            </case>
+                            <case value="moneyfield">
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable}</div>
+
+                                        </div>
+                                        <div class="item-input">
+                                            <input type="number" placeholder="{$vo.defultProps}"/>
+                                        </div>
+                                    </div>
+                                    <if condition="vo.defaultTranslate">
+                                        <div class="item-content">
+                                            <div class="item-media"></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">大写:</div>
+                                                <div class="item-input">
+                                                    <div></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </if>
+                                </li>
+                            </case>
+                            <case value="ddattachment">
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable}</div>
+
+                                        </div>
+                                        <div class="item-input">
+                                            <input type="number" placeholder="{$vo.defultProps}"/>
+                                        </div>
+                                    </div>
+                                    <div class="item-content">
+                                        <div class="item-inner"></div>
+                                    </div>
+                                </li>
+                            </case>
+                            <case value="externalcontactfield">
+                                <li>
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable}</div>
+                                        </div>
+                                        <div class="item-input">
+                                            <div>{$vo.defultProps}</div>
+                                            <i class="icon icon-next"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                            </case>
+                            <default>
+                                <li condition="vo.defaultFormat">
+                                    <div class="item-content">
+                                        <div class="item-media"></div>
+                                        <div class="item-inner">
+                                            <div class="item-title label">{$vo.defaultLable}</div>
+                                            <div class="item-input">
+                                                <input type="text" placeholder="{$vo.defaultProps}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </default>
+                        </switch>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+<script>
+    $(function () {
+        /* $.ajax({
+         url: '__AJAXROOT__/index/getPageData',
+         type: 'json',
+         method: 'get',
+         success: createHtml
+         })*/
+        $(".action").on("click", function (e) {
+            var actionNode = $(this).parent().get(0).cloneNode(true);
+            var dom = $(this).parent().parent().parent();
+            $(this).remove();
+            var nextDom = dom.next();
+            var x = dom[0].cloneNode(true);
+            x.appendChild(actionNode);
+            dom[0].parentNode.insertBefore(x, nextDom[0])
+        })
+        /* $("#file").on('change', function (e) {
+         var file = e.target.files[0]
+         console.log(file);
+         var reader = new FileReader();
+         console.log(reader)
+         reader.onload = function (event) {
+         var contents = event.target.result;
+         $("#aaa").css("background", "url(" + contents + ")")
+         console.log("File contents: " + contents);
+         };
+         reader.readAsDataURL(file);
+
+         })*/
+    })
+    function createHtml(data) {
+        console.log(typeof data)
+        console.log(data)
+    }
+</script>
+</body>
+
+</html>

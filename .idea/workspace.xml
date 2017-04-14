@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14171ba8-0ce9-47ba-a1dd-119e0909c79c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/审批设计器.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/form.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="dindin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,148 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58409387">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.878788">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3939395">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getApprovalList.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/getApprovalList.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="design01.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/design01.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2989" column="69" selection-start-line="2989" selection-start-column="65" selection-end-line="2989" selection-end-column="69" />
-              <folding>
-                <element signature="e#2732#4475#0" expanded="false" />
-                <element signature="e#4615#4714#0" expanded="false" />
-                <element signature="e#4740#4843#0" expanded="false" />
-                <element signature="e#4869#5311#0" expanded="false" />
-                <element signature="e#5359#5392#0" expanded="false" />
-                <element signature="e#5422#5885#0" expanded="false" />
-                <element signature="e#5923#6580#0" expanded="false" />
-                <element signature="e#8353#8432#0" expanded="false" />
-                <element signature="e#11522#11555#0" expanded="false" />
-                <element signature="e#11610#25787#0" expanded="false" />
-                <element signature="e#12080#12183#0" expanded="false" />
-                <element signature="e#12762#13225#0" expanded="false" />
-                <element signature="e#13302#13906#0" expanded="false" />
-                <element signature="e#25828#25862#0" expanded="false" />
-                <element signature="e#25911#27350#0" expanded="false" />
-                <element signature="e#27472#30511#0" expanded="false" />
-                <element signature="e#28389#30433#0" expanded="false" />
-                <element signature="e#30568#41614#0" expanded="false" />
-                <element signature="e#34486#36251#0" expanded="false" />
-                <element signature="e#41666#56685#0" expanded="false" />
-                <element signature="e#41713#41812#0" expanded="false" />
-                <element signature="e#41838#41941#0" expanded="false" />
-                <element signature="e#56741#74547#0" expanded="false" />
-                <element signature="e#58890#66278#0" expanded="false" />
-                <element signature="e#58908#59040#0" expanded="false" />
-                <element signature="e#59058#59188#0" expanded="false" />
-                <element signature="e#59190#59319#0" expanded="false" />
-                <element signature="e#59337#59468#0" expanded="false" />
-                <element signature="e#59470#59599#0" expanded="false" />
-                <element signature="e#59617#59748#0" expanded="false" />
-                <element signature="e#59750#59883#0" expanded="false" />
-                <element signature="e#59901#60035#0" expanded="false" />
-                <element signature="e#60037#60172#0" expanded="false" />
-                <element signature="e#60190#60325#0" expanded="false" />
-                <element signature="e#60327#60461#0" expanded="false" />
-                <element signature="e#60479#60608#0" expanded="false" />
-                <element signature="e#60610#60741#0" expanded="false" />
-                <element signature="e#60759#60892#0" expanded="false" />
-                <element signature="e#60894#61023#0" expanded="false" />
-                <element signature="e#61041#61171#0" expanded="false" />
-                <element signature="e#61173#61304#0" expanded="false" />
-                <element signature="e#61322#61454#0" expanded="false" />
-                <element signature="e#61456#61589#0" expanded="false" />
-                <element signature="e#61607#61742#0" expanded="false" />
-                <element signature="e#61744#61878#0" expanded="false" />
-                <element signature="e#66143#66277#0" expanded="false" />
-                <element signature="e#74599#75043#0" expanded="false" />
-                <element signature="e#75096#78171#0" expanded="false" />
-                <element signature="e#75290#75323#0" expanded="false" />
-                <element signature="e#78240#97491#0" expanded="false" />
-                <element signature="e#78287#78386#0" expanded="false" />
-                <element signature="e#79885#80542#0" expanded="false" />
-                <element signature="e#97549#105002#0" expanded="false" />
-                <element signature="e#105051#108024#0" expanded="false" />
-                <element signature="e#108063#108878#0" expanded="false" />
-                <element signature="e#113709#118450#0" expanded="false" />
-                <element signature="e#118497#125875#0" expanded="false" />
-                <element signature="e#131791#137619#0" expanded="false" />
-                <element signature="e#137667#142291#0" expanded="false" />
-                <element signature="e#142340#152785#0" expanded="false" />
-                <element signature="e#142387#142486#0" expanded="false" />
-                <element signature="e#152831#157263#0" expanded="false" />
-                <element signature="e#157310#169892#0" expanded="false" />
-                <element signature="e#159554#163168#0" expanded="false" />
-                <element signature="e#169939#174230#0" expanded="false" />
-                <element signature="e#174276#178717#0" expanded="false" />
-                <element signature="e#178761#184393#0" expanded="false" />
-                <element signature="e#184441#189239#0" expanded="false" />
-                <element signature="e#189280#194255#0" expanded="false" />
-                <element signature="e#194302#198515#0" expanded="false" />
-                <element signature="e#198573#204902#0" expanded="false" />
-                <element signature="e#200793#202159#0" expanded="false" />
-                <element signature="e#203115#204820#0" expanded="false" />
-                <element signature="e#204963#260458#0" expanded="false" />
-                <element signature="e#205135#205577#0" expanded="false" />
-                <element signature="e#216467#217442#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="save.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="save.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/save.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getFormRuleCondition.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/getFormRuleCondition.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getForm.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/getForm.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.08588957">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -185,11 +56,12 @@
         <option value="$PROJECT_DIR$/data/getApprovalList.json" />
         <option value="$PROJECT_DIR$/data/getFormRuleCondition.json" />
         <option value="$PROJECT_DIR$/data/getForm.json" />
-        <option value="$PROJECT_DIR$/data/save.json" />
         <option value="$PROJECT_DIR$/form.html" />
         <option value="$PROJECT_DIR$/js/design01.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/data/savePreviewForm.json" />
+        <option value="$PROJECT_DIR$/data/save.json" />
       </list>
     </option>
   </component>
@@ -199,10 +71,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="392" />
-    <option name="y" value="74" />
-    <option name="width" value="1449" />
-    <option name="height" value="968" />
+    <option name="x" value="452" />
+    <option name="y" value="96" />
+    <option name="width" value="1272" />
+    <option name="height" value="853" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -229,6 +101,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,14 +121,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dindin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dindin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../小页面" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
@@ -326,13 +212,20 @@
       <option name="number" value="Default" />
       <updated>1490167199675</updated>
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1491030983516</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491030983516</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="392" y="74" width="1449" height="968" extended-state="0" />
-    <editor active="true" />
+    <frame x="452" y="96" width="1272" height="853" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21291696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22402598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -340,6 +233,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -382,6 +276,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="31" />
@@ -389,6 +287,143 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/getApprovalList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/design01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2989" column="69" selection-start-line="2989" selection-start-column="65" selection-end-line="2989" selection-end-column="69" />
+          <folding>
+            <element signature="e#2732#4475#0" expanded="false" />
+            <element signature="e#4615#4714#0" expanded="false" />
+            <element signature="e#4740#4843#0" expanded="false" />
+            <element signature="e#4869#5311#0" expanded="false" />
+            <element signature="e#5359#5392#0" expanded="false" />
+            <element signature="e#5422#5885#0" expanded="false" />
+            <element signature="e#5923#6580#0" expanded="false" />
+            <element signature="e#8353#8432#0" expanded="false" />
+            <element signature="e#11522#11555#0" expanded="false" />
+            <element signature="e#11610#25787#0" expanded="false" />
+            <element signature="e#12080#12183#0" expanded="false" />
+            <element signature="e#12762#13225#0" expanded="false" />
+            <element signature="e#13302#13906#0" expanded="false" />
+            <element signature="e#25828#25862#0" expanded="false" />
+            <element signature="e#25911#27350#0" expanded="false" />
+            <element signature="e#27472#30511#0" expanded="false" />
+            <element signature="e#28389#30433#0" expanded="false" />
+            <element signature="e#30568#41614#0" expanded="false" />
+            <element signature="e#34486#36251#0" expanded="false" />
+            <element signature="e#41666#56685#0" expanded="false" />
+            <element signature="e#41713#41812#0" expanded="false" />
+            <element signature="e#41838#41941#0" expanded="false" />
+            <element signature="e#56741#74547#0" expanded="false" />
+            <element signature="e#58890#66278#0" expanded="false" />
+            <element signature="e#58908#59040#0" expanded="false" />
+            <element signature="e#59058#59188#0" expanded="false" />
+            <element signature="e#59190#59319#0" expanded="false" />
+            <element signature="e#59337#59468#0" expanded="false" />
+            <element signature="e#59470#59599#0" expanded="false" />
+            <element signature="e#59617#59748#0" expanded="false" />
+            <element signature="e#59750#59883#0" expanded="false" />
+            <element signature="e#59901#60035#0" expanded="false" />
+            <element signature="e#60037#60172#0" expanded="false" />
+            <element signature="e#60190#60325#0" expanded="false" />
+            <element signature="e#60327#60461#0" expanded="false" />
+            <element signature="e#60479#60608#0" expanded="false" />
+            <element signature="e#60610#60741#0" expanded="false" />
+            <element signature="e#60759#60892#0" expanded="false" />
+            <element signature="e#60894#61023#0" expanded="false" />
+            <element signature="e#61041#61171#0" expanded="false" />
+            <element signature="e#61173#61304#0" expanded="false" />
+            <element signature="e#61322#61454#0" expanded="false" />
+            <element signature="e#61456#61589#0" expanded="false" />
+            <element signature="e#61607#61742#0" expanded="false" />
+            <element signature="e#61744#61878#0" expanded="false" />
+            <element signature="e#66143#66277#0" expanded="false" />
+            <element signature="e#74599#75043#0" expanded="false" />
+            <element signature="e#75096#78171#0" expanded="false" />
+            <element signature="e#75290#75323#0" expanded="false" />
+            <element signature="e#78240#97491#0" expanded="false" />
+            <element signature="e#78287#78386#0" expanded="false" />
+            <element signature="e#79885#80542#0" expanded="false" />
+            <element signature="e#97549#105002#0" expanded="false" />
+            <element signature="e#105051#108024#0" expanded="false" />
+            <element signature="e#108063#108878#0" expanded="false" />
+            <element signature="e#113709#118450#0" expanded="false" />
+            <element signature="e#118497#125875#0" expanded="false" />
+            <element signature="e#131791#137619#0" expanded="false" />
+            <element signature="e#137667#142291#0" expanded="false" />
+            <element signature="e#142340#152785#0" expanded="false" />
+            <element signature="e#142387#142486#0" expanded="false" />
+            <element signature="e#152831#157263#0" expanded="false" />
+            <element signature="e#157310#169892#0" expanded="false" />
+            <element signature="e#159554#163168#0" expanded="false" />
+            <element signature="e#169939#174230#0" expanded="false" />
+            <element signature="e#174276#178717#0" expanded="false" />
+            <element signature="e#178761#184393#0" expanded="false" />
+            <element signature="e#184441#189239#0" expanded="false" />
+            <element signature="e#189280#194255#0" expanded="false" />
+            <element signature="e#194302#198515#0" expanded="false" />
+            <element signature="e#198573#204902#0" expanded="false" />
+            <element signature="e#200793#202159#0" expanded="false" />
+            <element signature="e#203115#204820#0" expanded="false" />
+            <element signature="e#204963#260458#0" expanded="false" />
+            <element signature="e#205135#205577#0" expanded="false" />
+            <element signature="e#216467#217442#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/save.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/getFormRuleCondition.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/getForm.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -401,7 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,116 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/savePreviewForm.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="47" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/getPublicProcessTempList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/getLoginuserDepts.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/getHomepageData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vueTest/vueTest/src/img/TB17dLlLXXXXXXAXVXX4e0PNFXX-336-78.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vueTest/vueTest/src/img/TB1.vAMOXXXXXXmaFXXXXXXXXXX-102-102.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vueTest/vueTest/src/img/TB118RbOpXXXXahXVXXXXXXXXXX-102-102.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vueTest/vueTest/src/img/TB12R3NOXXXXXcwaXXXXXXXXXXX-102-102.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vueTest/vueTest/src/img/TB13336OXXXXXcGapXXXXXXXXXX-102-102.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vueTest/vueTest/src/img/TB13Bw.OXXXXXXQXVXXXXXXXXXX-102-102.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vueTest/vueTest/src/img/TB13G0EOpXXXXbuXXXXXXXXXXXX-102-102.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vueTest/vueTest/src/img/TB14v8rOpXXXXXYXpXXXXXXXXXX-102-102.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vueTest/vueTest/src/img/TB13Rg5OXXXXXcgaXXXXXXXXXXX-102-102.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vueTest/vueTest/src/img/TB1mLf6IpXXXXcQXpXXXXXXXXXX.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/getForm.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/getFormRuleCondition.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/getApprovalList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/save.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/design.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1138,7 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,15 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,15 +1078,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3939395">
+        <state vertical-scroll-proportion="0.0">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,7 +1093,7 @@
         <state vertical-scroll-proportion="0.385">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1196,9 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.155">
           <caret line="445" column="24299" selection-start-line="445" selection-start-column="24299" selection-end-line="445" selection-end-column="24299" />
-          <folding>
-            <element signature="e#0#29281#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1206,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,14 +1116,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5460123">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/getPublicProcessTempList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="678" selection-start-line="0" selection-start-column="669" selection-end-line="0" selection-end-column="678" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/getLoginuserDepts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6969697">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/getHomepageData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6969697">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/getFormRuleCondition.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.787879">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/getForm.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.787879">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/getApprovalList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2576687">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/savePreviewForm.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="56" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58409387">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.878788">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/save.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08588957">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>
